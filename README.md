@@ -1,6 +1,6 @@
 ## eCommerceDsMicroServicesImageUrl
 
-**eCommerceDsMicroServicesImageUrl** is a solution comprised of three ASP.NET Core Web API projects (microservices): CdService, ShoppingService, and UserService. It is the backend service layer for an e-commerce application, focused on record management. The Repository implements the data access logic. Services contains the application's business logic. Key features implemented in the project include: Authentication and Authorization, User Management (UserService), Catalog Management (CdService), Shopping Cart Management, and Order Management (ShoppingService).
+**eCommerceDsMicroServicesImageUrl** is an ASP.NET Core 8.0 Web API project. It is the backend service layer for an e-commerce application, focused on data management. The Repository implements the data access logic. The Services contain the application's business logic. Key features implemented in the project include: Authentication and Authorization, User Management, Catalog Management, Shopping Cart Management, and Order Management. It uses SQL Server, Entity Framework Core and JWT for authentication. It is made up of three microservices: CdService, ShoppingService and UserService. Images are not uploaded locally, the https://imgur.com service is used.
 
 **CdService** (Catalog Management) manages the catalog of records, music groups (Groups), and music genres (MusicGenres). It receives requests from ShoppingService to obtain information about records and update their stock.
 
